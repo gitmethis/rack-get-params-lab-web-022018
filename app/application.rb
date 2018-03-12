@@ -20,7 +20,7 @@ class Application
          |item|
          resp.write item
        }
- 
+       
     else
       resp.write "Path Not Found"
     end
