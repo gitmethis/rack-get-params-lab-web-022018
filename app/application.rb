@@ -20,7 +20,7 @@ class Application
          |item|
          resp.write item
        }
-    elsif req.path.match(/add/)
+ 
     else
       resp.write "Path Not Found"
     end
