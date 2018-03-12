@@ -21,7 +21,7 @@ class Application
       else
        @@cart.each{
          |item|
-         resp.write item
+         resp.write "#{item}\n"
        }
       end
     elsif req.path.match(/add/)
